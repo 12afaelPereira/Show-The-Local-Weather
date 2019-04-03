@@ -1,0 +1,73 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #91CED7;    
+  background: #F0F1F5;
+  background: #53DF83;
+  background: #E74C3C;
+}
+
+
+span {
+  padding: 14px;
+  display: block;
+  font-size: 1.3em;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+}
+
+i::before {
+  font-size: 3em;
+  color: #91CED7;
+  color: #E74C3C;
+}
+
+i:hover::before{
+  color: #3F92D8;;
+}
+
+.center {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-allign-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.weather {
+  width: 350px;
+  height: 500px;
+  background: #FFF;
+  border-radius: 15px;
+  color: rgba(63, 63, 63, 0.74);
+}
+
+.change {
+  cursor: pointer;
+}
+
+.card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+@media(max-width: 45em){
+  html,
+  body{
+    height: initial;
+  }
+}
