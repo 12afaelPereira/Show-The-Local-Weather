@@ -1,6 +1,6 @@
 # Show-The-Local-Weather
-Show the local weather using OpenWeatherMap API
+Show the local weather using OpenWeatherMap API.
 
-- [Demo](https://12afaelpereira.github.io/Show-The-Local-Weather/)
+It was a FreeCodeCamp's [challenge](https://learn.freecodecamp.org/coding-interview-prep/take-home-projects/show-the-local-weather/). 
 
-![alt tag](https://raw.githubusercontent.com/12afaelPereira/Show-The-Local-Weather/master/weather.png)
+I've used [ipapi](https://ipapi.co/) and [openWeatherMap](https://openweathermap.org/api) api to get the location and the weather data from user, by using ajax request.
